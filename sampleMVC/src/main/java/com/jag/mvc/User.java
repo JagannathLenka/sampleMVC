@@ -21,7 +21,7 @@ public class User{
 			this.userAddress = "1500 White Birch Terrace";
 		}	
 		else {
-			this.userAddress = "Not a vaid zipcode";
+			this.userAddress = "Not a valid zipcode";
 		}
 		
 		return this.userAddress;
