@@ -14,6 +14,7 @@ public class TestUser {
 		assertEquals("The address should be Invalid Address", user.getUserAddress(), "1500 White Birch Terrace");
 	}
 
+	
 	@Test
 	public void testInvalidGetUserAddress() {
 		User user = new User("Jaganath", "94535");		
